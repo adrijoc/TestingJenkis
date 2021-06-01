@@ -7,13 +7,14 @@ import org.testng.annotations.BeforeMethod;
 
 public class baseTest {
 
+
+
 //    private WebDriver driver;
 //
 //    //@BeforeMethod(alwaysRun = true)
-//    public void setUpTest(){
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//    }
+    public void setUpTest(){
+        System.out.println("BaseTest ");
+    }
 
 
 }
